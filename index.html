@@ -1,0 +1,442 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Karol & Jerick</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/YouTubePopUp.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="lds-heart">
+            <div></div>
+        </div>
+    </div>
+    <!-- Progress-wrapp scroll-button -->
+    <div class="progress-wrap active-progress">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo-wrapper navbar-brand valign">
+                <div class="logo">
+                    <a href="index.html"><img src="images2/LOGO nuestra boda.png" alt="" style="width: 63%;"></a>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
+                    class="icon-bar"><i class="ti-line-double"></i></span> </button>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home" data-scroll-nav="0">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#couple" data-scroll-nav="2">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery" data-scroll-nav="3">Galería</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#whenwhere" data-scroll-nav="6">¿Cuándo y Dónde?</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#outfit" data-scroll-nav="8">Vestimenta</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#rsvp" data-scroll-nav="7">Regalos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#rsvp2" data-scroll-nav="9">Notas</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <style>
+        .bg-fixed {
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+    <script>
+        function changeBackground() {
+            var screenWidth = window.innerWidth;
+            var mobileThreshold = 768; // Adjust this threshold as needed
+            var bgElement = document.querySelector('.bg-fixed');
+    
+            if (screenWidth < mobileThreshold) {
+                // Use mobile background image
+                bgElement.style.backgroundImage = "url('images/JAP-4996-1.jpg')";
+            } else {
+                // Use desktop background image
+                bgElement.style.backgroundImage = "url('images/JAP-4996.jpg')";
+            }
+        }
+    
+        // Call the function initially and whenever the window is resized
+        window.onload = changeBackground;
+        window.onresize = changeBackground;
+    </script>
+
+    <!-- Slider section -->
+    <header id="home" data-scroll-index="0">
+        <div class="mary-hero js-fullheight">
+            <div class="flexslider js-fullheight">
+                <ul class="slides">
+                    <li class="bg-fixed" data-overlay-dark="2"
+                        id="icon">
+                        <div class="overlay"></div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 text-center js-fullheight slider-text">
+                                    <div class="slider-text-inner mx-auto">
+                                        <h2>Karol y Jerick</h2>
+                                        <h6>16 de Marzo de 2024 — Atenas, Santa Eulalia</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+    <!-- Welcome section -->
+    <div id="welcome" class="welcome section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="welcome-mt">
+                        <div class="welcome-image-wrapper">
+                            <div class="img">
+                                <a href="#" data-scroll-nav="1"><img src="images/JAP-4968.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 offset-md-2 text-center">
+                    <h6 class="section-subtitle">Hola & Bienvenido</h6>
+                    <h2 class="section-title">¡Al fin nos casamos!</h2>
+                    <p>Con una gran ilusión queremos compartir con ustedes nuestro gran día... <br> Los queremos en
+                        nuestra boda
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <!-- Countdown section -->
+    <div id="countdown" class="section-padding bg-img bg-fixed" data-overlay-dark="1"
+        data-background="images/JAP-4951.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="section-head col-md-12">
+                    <h6>Nos convertiremos en una familia</h6>
+                    <h2>Nos casaremos en</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <ul>
+                        <li><span id="days"></span>Días</li>
+                        <li><span id="hours"></span>Horas</li>
+                        <li><span id="minutes"></span>Minutos</li>
+                        <li><span id="seconds"></span>Segundos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Video section -->
+    <div id="video" class="story-video section-padding bg-img bg-fixed" data-overlay-dark="2"
+        data-background="images/JAP-5006.jpg">
+        <div class="container">
+            <div class="video-wrapper">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="caption">
+                            <h6 class="subtitle">UNA FAMILIA QUE COMIENZA</h6>
+                            <h2 class="title">El mejor día de nuestras vidas comienza a sonar así... </h2><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 mb-60 img text-center">
+                        <a class="vid valign" href="https://youtu.be/zsakgzvoIHc?feature=shared ">
+                            <div class="vid-butn">
+                                <span class="icon"><i class="ti-control-play"></i></span>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery section -->
+    <div id="gallery" class="section-padding bg-cream" data-scroll-index="3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h6 class="section-subtitle">Galería</h6>
+                    <h2 class="section-title">Sesión de compromiso</h2>
+                    <a href="https://japphotocr.pixieset.com/sesinkarolandjerick/" target="_blank">
+                        <h3>Haz click aquí para ver nuestra sesión de compromiso!</h3>
+                    </a>
+                </div>
+            </div>
+            <img src="images/JAP-5018.jpg" alt="">
+        </div>
+    </div>
+    <!-- Banner section -->
+    <div id="banner" class="section-padding bg-img bg-fixed" data-overlay-dark="1"
+        data-background="images/JAP-5026.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="section-head col-md-12">
+                    <h6>Agenda la fecha</h6>
+                    <h2>¡Espero verte!</h2>
+                    <h1>16.03.2024</h1>
+                    <h1><i class="ti-heart"></i></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- When & Where section -->
+    <div id="whenwhere" class="when-where section-padding" data-scroll-index="6">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center animate-box" data-animate-effect="fadeInUp">
+                    <h6 class="section-subtitle">Agenda la fecha</h6>
+                    <h2 class="section-title">¿Cuándo y Dónde?</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                    <div class="img left">
+                        <img src="images/JAP-4937.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 valign animate-box" data-animate-effect="fadeInRight">
+                    <a href="https://waze.com/ul/hd1u0bnrjc" target="_blank"> <img src="images2/CEREMONIA.png" alt=""
+                            style="width: 80%; height: auto;">
+                    </a>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-6 order2 valign animate-box" data-animate-effect="fadeInLeft">
+                    <img src="images2/recepcion_.png" alt="" style="width: 80%; height: auto;">
+                </div>
+                <div class="col-md-6 order1 animate-box" data-animate-effect="fadeInRight">
+                    <div class="img">
+                        <img src="images/JAP-5006.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="marybrian-blog section-padding">
+        <div class="container">
+            <div class="row mb-30">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.071888633703!2d-84.36790158850037!3d10.010920790053724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa050b8063440c9%3A0x56483697ad2398d8!2sRanchos%20De%20Eventos%20Mi%20Sue%C3%B1o!5e0!3m2!1ses-419!2scr!4v1707286261620!5m2!1ses-419!2scr"
+                    width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <!-- Dress Code section -->
+        <div id="outfit" class="bride-groom clear section-padding bg-cream" data-scroll-index="8">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center mb-30 animate-box" data-animate-effect="fadeInUp">
+                        <h6 class="section-subtitle">Código de Vestimenta</h6>
+                        <h2 class="section-title">Semi-Formal, Casual</h2>
+                    </div>
+                    <img src="images/Imagen1.png" alt="">
+
+                    <div class="col-md-12 text-center mb-30 animate-box">
+                        <div class="widget-container" style="text-align: center;">
+                            <br>
+                            <p style="font-size: larger;">Siéntase comod@ y guap@, queremos verte bailar y enfiestarte
+                                con nosotros
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- RSVP Form section -->
+        <div id="rsvp" class="rsvp section-padding bg-img bg-fixed" data-background="images/JAP-4952.jpg"
+            data-scroll-index="7">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3 bg-white p-60" style="opacity: 0.8;">
+                        <h2 class="text-center">Regalos</br></h2>
+                        <h6 class="text-center" style="font-family: Didact Gothic; font-size: large;">
+                            Que nos acompañes es lo más importante! Y sí está en tu disposición realizar una muestra de
+                            cariño estaremos muy agradecidos.
+                            <br>
+                            <br>
+                            <br>
+                            - Lluvia de Sobres
+
+                            <br>
+                            "La lluvia de sobres, es la tradición de regalar dinero en efectivo a los novios en un sobre
+                            el día del evento"
+                            <br>
+                            <br>
+                            <br>
+                            - Transferencia
+                            <br>
+                            "No es necesario estar cerca, para hacer sentir el amor y el cariño "
+
+                            <br>
+                            <br>
+                            Si así lo prefieres puedes realizar transferencia:
+                            <br>
+                            <br>
+                            BCR CUENTA DE AHORROS
+                            <br>
+                            CR18015202001054877492
+                            <br>
+                            A nombre de Jerick Madrigal Barquero
+                            <br>
+                            <br>
+                            Sinpe móvil
+                            <br>
+                            7108-6078 Jerick
+                            <br>
+                            8310-9668 Karol
+
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <div id="rsvp2" class="rsvp section-padding bg-img bg-fixed" data-background="images/JAP-5082.jpg"
+            data-scroll-index="9">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3 bg-white p-60">
+                        <h2 class="text-center">¡Importante!</br></h2>
+                        <br>
+                        <h6 class="text-center" style="font-family: Didact Gothic; font-size: large;">
+                            Este es un evento para adultos, contamos con tu presencia! </h6>
+                        <h6 class="text-center" style="font-family: Didact Gothic; font-size: large;">Te agradecemos
+                            realizar la confirmación a más tardar el 29 de febrero</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <br>
+        <!-- Instagram section -->
+        <div class="insta">
+            <div class="container flex">
+                <div class="img">
+                    <a href="#0"> <img src="images/JAP-4927.jpg" alt=""> </a> <i class="ti-instagram"></i>
+                </div>
+                <div class="img">
+                    <a href="#0"> <img src="images/JAP-4963.jpg" alt=""> </a> <i class="ti-instagram"></i>
+                </div>
+                <div class="img">
+                    <a href="#0"> <img src="images/JAP-5024.jpg" alt=""> </a> <i class="ti-instagram"></i>
+                </div>
+                <div class="img">
+                    <a href="#0"> <img src="images/JAP-5042.jpg" alt=""> </a> <i class="ti-instagram"></i>
+                </div>
+
+                <div class="follow">
+                    <a href="#0" class="text-bg"> <span><i class="ti-instagram"></i> #J&K <br> </span></a>
+                </div>
+                <br>
+
+
+            </div>
+        </div>
+
+
+
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <div style="margin: 18px 100px 20px;">
+            <p>Comparte con nosotros todas tus fotografías del evento, usando el siguiente #hashtag en todas tus
+                publicaciones de Facebook e Instagram</p>
+        </div>
+        <!-- Footer section -->
+        <footer id="footer">
+            <div class="container">
+                <div class="top-footer">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <div class="section-padding">
+                                <h2><span>Karol <small>&amp;</small> Jerick</span></h2>
+                                <h6>16 de Marzo de 2024 — Atenas, Santa Eulalia</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-footer">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <p>Nos gustaría que nos acompañes en este día tan especial</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- jQuery -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/modernizr-2.6.2.min.js"></script>
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.waypoints.min.js"></script>
+        <script src="js/jquery.flexslider-min.js"></script>
+        <script src="js/sticky-kit.min.js"></script>
+        <script src="js/scrollIt.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/isotope.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/YouTubePopUp.js"></script>
+        <script src="js/template.js"></script>
+
+</body>
+
+</html>
